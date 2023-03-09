@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "metamask",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "react-bootstrap": "^1.6.0",
+    "react-router-dom": "^5.2.0",
+    "web3": "^1.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.13.0",
+    "hardhat-deploy": "^0.11.25",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "hardhat-watcher": "^2.5.0"
   }
 }
